@@ -1,0 +1,60 @@
+body {
+  background-color: #477763;
+}
+
+article {
+  font-family: monospace, sans-serif;
+}
+
+header {
+  text-align: center;
+  height: 100px;
+  position: static;
+  top: 0;
+}
+
+#header {
+  margin: 0;
+  font-size: 60px;
+}
+
+#header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* social to left */
+article .social {
+  max-width: 30%;
+  position: fixed;
+  left: 0;
+  top: 80px;
+}
+
+article .center {
+  width: 70%;
+  float: left;
+  margin-top: 15px;
+  margin-left: 85px;
+  margin-right: auto;
+}
+
+.container {
+  display: inline-block;
+  padding-top: 5px;09876
+}
+
+/* float img to left */
+.float {
+  width: 250px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+  float: left;
+}
+
+/* put quick links to right */
+article .right {
+  width: 15%;
+  position: fixed;
+  right: 0;
+}
